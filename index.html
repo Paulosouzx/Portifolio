@@ -20,7 +20,7 @@
         <header><!--Cabecalho-->
             <div class="container">
                 <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="NavBarPrincipal">
-                    <a href="index.html" class="navbar-brand ml-5"><img src="assets/img/icons8-pato-100 (1).png" style="width: 40px;"></a>
+                    <a href="index.html"  class="navbar-brand ml-5"><img id="pato" src="assets/img/icons8-pato-100 (1).png" style="width: 40px;"></a>
 
                     <!--Menu Hamburguer-->
                     <button class="navbar-toggler" data-toggle="collapse" data-target="#navegacao">
@@ -36,10 +36,10 @@
                                 <a href="#sessao1" class="nav-link">Projetos</a>
                             </li>
                             <li class="nav-item">
-                                <a href="" class="nav-link">About Me</a>
+                                <a href="#sessao2" class="nav-link">Sobre mim</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#contact" class="nav-link">Contact</a>
+                                <a href="#contact" class="nav-link">Contato</a>
                             </li>
                         </ul>
                     </div>
@@ -75,14 +75,15 @@
 
             <div class="card-deck m-2" id="sessao1">
                     <!--Inicio card-->
-                    <div class="card">
-                      <img class="card-img-top" src="assets/Projetos/Login/Design sem nome (7).png" style="width: 90%; align-self: center;">
-                      <div class="card-body">
-                        <h3 class="card-title">Login Page</h3>
-                        <p class="card-text">Esta é uma página de login simples, criada com HTML e CSS, projetada para fornecer uma experiência intuitiva aos usuários.</p>
-                        <a href="https://paulosouzx.github.io/loginPage/" target="_blank" class="btn btn-custom botoescard">Clique para abrir</a>
-                      </div>
-                    </div>
+                    <div class="card" style="border-radius: 1;">
+    <img class="card-img-top" src="assets/Projetos/Login/Design sem nome (7).png" style="width: 90%; align-self: center;">
+    <div class="card-body">
+        <h3 class="card-title" style="text-wrap: nowrap;">Login Page</h3>
+        <p class="card-text d-none d-md-block">Esta é uma página de login simples, criada com HTML e CSS, projetada para fornecer uma experiência intuitiva aos usuários.</p>
+                <a href="https://paulosouzx.github.io/loginPage/" target="_blank" class="btn btn-custom">Clique para abrir</a>
+    </div>
+</div>
+
                     <!--Fim card-->
 
                     <!--Inicio card-->
@@ -91,8 +92,9 @@
                         style="width: 90%; align-self: center;">
                       <div class="card-body">
                         <h3 class="card-title">Calculadora</h3>
-                        <p class="card-text">Pagina web desenvolvida com API, usei uma Api para descobrir a temperatura, ventos e diversas circustancias do local desejado.</p>
-                        <a href="https://paulosouzx.github.io/WeatherApp/" target="_blank" class="btn btn-custom botoescard">Clique para abrir</a>
+                        <p class="card-text d-none d-md-block">Pagina web desenvolvida com API, usei uma Api para descobrir a temperatura, ventos e diversas circustancias do local desejado.</p>
+                            <a href="https://paulosouzx.github.io/WeatherApp/" target="_blank" class="btn btn-custom">Clique para abrir</a>
+                        
                       </div>
                     </div>
                     <!--Fim card-->
@@ -103,53 +105,84 @@
                       <img class="card-img-top" src="assets/Projetos/Spotify/Design_sem_nome__2_-removebg-preview.png" style="width: 90%; align-self: center;">
                       <div class="card-body">
                         <h3 class="card-title">Spotify Copy</h3>
-                        <p class="card-text">Uma recriação do antigo Spotify, esta versão retro oferece uma experiência nostálgica com a interface clássica do aplicativo de streaming de música.</p>
-                        <a href="https://paulosouzx.github.io/Spotify/" target="_blank" class="btn btn-custom botoescard">Clique para abrir</a>
+                        <p class="card-text d-none d-md-block">Uma recriação, esta versão retro oferece uma experiência nostálgica com a interface clássica do aplicativo de streaming de música.</p>
+                                    <a  href="https://paulosouzx.github.io/Spotify/" target="_blank" class="btn btn-custom">Clique para abrir</a>
+
+                            </div>
+
+                        </div>
+                        
                       </div>
                     </div>
                   </div>
                   <!--Fim card-->
             </div>
 
-            <div class="card-deck m-2">
+            <div class="card-deck">
                 <!--Inicio card-->
-                <div class="card">
-                  <img class="card-img-top" src="assets/Projetos/Finans/Design sem nome (6).png" style="width: 90%; align-self: center;">
+                <div class="card" style="margin-bottom: 10px; margin-left: 10px;"
+                >
+                  <img class="card-img-top" src="assets/Projetos/Finans/Design sem nome (6).png" style="width: 80%; align-self: center;">
                   <div class="card-body">
                     <h3 class="card-title">Finans</h3>
-                    <p class="card-subtitle">Finans - Projeto totalmente responsivo e moderno, feito com um desing chamativo para qualquer visitante.</p>
-                    <a href="https://paulosouzx.github.io/Finans/" target="_blank" class="btn btn-custom botoescard">Clique para abrir</a>
+                    <p class="card-subtitle d-none d-md-block">Finans - Projeto totalmente responsivo e moderno, feito com um desing chamativo para qualquer visitante.</p>
+                    <a href="https://paulosouzx.github.io/Finans/" target="_blank" class="btn btn-custom">Clique para abrir</a>
                   </div>
                 </div>
                 <!--Fim card-->
 
 
                 <!--Inicio card-->
-                <div class="card">
+                <div class="card" style="margin-bottom: 10px;">
                     <img src="assets/Projetos/WatherApp/Design_sem_nome__3_-removebg-preview.png" class="card-img img-fluid"
-                    style="width: 90%; align-self: center;">
-                  <div class="card-body">
-                    <h3 class="card-title">WatherApp</h3>
-                    <p class="card-text">Pagina web desenvolvida com API, usei uma Api para descobrir a temperatura, ventos e diversas circustancias do local desejado.</p>
-                    <a href="https://paulosouzx.github.io/WeatherApp/" target="_blank" class="btn btn-custom botoescard">Clique para abrir</a>
-                  </div>
+                        style="width: 80%; align-self: center;">
+                    <div class="card-body">
+                        <h3 class="card-title">WatherApp</h3>
+                        <p class="card-text d-none d-md-block">Pagina web desenvolvida com API, usei uma Api para descobrir a temperatura, ventos e diversas circustancias do local desejado.</p>
+                
+                        <div class="container d-flex justify-content-center"> <!-- Adicione a classe justify-content-center para centralizar o botão -->
+                            <a href="https://paulosouzx.github.io/WeatherApp/" target="_blank" class="btn btn-custom align-self-center">Clique para abrir</a>
+                        </div>
+                
+                    </div>
                 </div>
+                
                 <!--Fim card-->
         </div>
     </section>
 
-    <section class="info">
-<p>fasjkffc</p>
-<p>fasjkffc</p>
-
-<p>fasjkffc</p>
-
+    <section class="sobremim" id="sessao2">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="col-md-12">
+                    <p class="text-md-center" id="textoSobre">
+                        Estou procurando uma oportunidade de estágio
+                        como desenvolvedor front-end, onde posso
+                        aplicar e melhorar minhas habilidades técnicas
+                        ao mesmo tempo que colabora com uma dinâmica
+                        equipe. Com uma sólida compreensão
+                        tecnologias front-end e uma paixão
+                        para aprender, estou ansioso para
+                        contribuindo para projetos desafiadores como eu
+                        desenvolver minha carreira na área.
+                    </p>
+                </div>         
+            </div>
+        </div>
     </section>
+
 
 
         <footer class="rodape">
             <div class="container">
-            
+                <div class="icones">
+                    <a href="https://github.com/Paulosouzx" target="_blank" class="mr-2"><i class="fa-brands fa-github fa-2x" style="color: #FF9933;"></i></a>
+                    <a href="https://www.linkedin.com/in/paulo-souzx/" target="_blank" class="mr-2"><i class="fa-brands fa-linkedin fa-2x" style="color: #FF9933;"></i></a>
+                    <a href="assets/curriculo/Curriculo Full-Stack.pdf" target="_blank" class="mr-2"><i class="fa-regular fa-file fa-2x" style="color: #FF9933;"></i></a>
+                </div>
+                <div class="texto">
+                    <p style="font-family: Arial, Helvetica, sans-serif; color: grey; text-align: center;padding-top: 10px;">© 2024 Paulo Junior</p>
+                </div>
 
             </div>
         </section>
